@@ -5,7 +5,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // Fetch products from an API or use sample data
+    
     const sampleProducts = [
       {
         name: 'Product 1',
